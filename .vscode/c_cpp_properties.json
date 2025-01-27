@@ -1,0 +1,37 @@
+{
+  "configurations": [
+    {
+      "name": "windows-gcc-x64",
+      "includePath": [
+        "${workspaceFolder}/**"
+        // "${workspaceFolder}/Core/Inc",
+        // "${workspaceFolder}/Drivers/CMSIS/Core/Include/",
+        // "${workspaceFolder}/Drivers/CMSIS/Device/ST/STM32H7xx/Include",
+        // "${workspaceFolder}/Drivers/CMSIS/Include",
+        // "${workspaceFolder}/Drivers/STM32H7xx_HAL_Driver/Inc",
+        // "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Core/Inc",
+        // "${workspaceFolder}/Middlewares/ST/STM32_USB_Device_Library/Class/CDC/Inc",
+        // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS_V2",
+        // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/include",
+        // "${workspaceFolder}/Middlewares/Third_Party/FreeRTOS/Source/portable/GCC/ARM_CM4F",
+        // "${workspaceFolder}/USB_DEVICE/App",
+        // "${workspaceFolder}/USB_DEVICE/Target"
+      ],
+      "defines": [
+        "USE_HAL_DRIVER",
+        "STM32H743xx",
+        "BSP_USE_CMSIS_OS",
+        "CORE_CM7",
+        "ST",
+        "USE_FLOATING_POINT",
+        "USE_USB_HS"
+      ],
+      "compilerPath": "C:/MinGW/bin/gcc.exe",
+      "cStandard": "${default}",
+      "cppStandard": "${default}",
+      "intelliSenseMode": "windows-gcc-x64",
+      "compilerArgs": [""]
+    }
+  ],
+  "version": 4
+}

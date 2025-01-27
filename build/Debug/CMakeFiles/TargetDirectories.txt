@@ -1,0 +1,5 @@
+C:/Users/oaish/Desktop/code/stm32/flipdot/build/Debug/CMakeFiles/flipdot.dir
+C:/Users/oaish/Desktop/code/stm32/flipdot/build/Debug/CMakeFiles/edit_cache.dir
+C:/Users/oaish/Desktop/code/stm32/flipdot/build/Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/oaish/Desktop/code/stm32/flipdot/build/Debug/cmake/stm32cubemx/CMakeFiles/edit_cache.dir
+C:/Users/oaish/Desktop/code/stm32/flipdot/build/Debug/cmake/stm32cubemx/CMakeFiles/rebuild_cache.dir
