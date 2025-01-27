@@ -54,6 +54,14 @@
   "C_Cpp_Runner.useLinkTimeOptimization": false,
   "C_Cpp_Runner.msvcSecureNoWarnings": false,
   "files.associations": {
-    "cmsis_os.h": "c"
-  }
+    "cmsis_os.h": "c",
+    "freertos.h": "c",
+    "main.h": "c",
+    "flipdot_digit.h": "c",
+    "gpio.h": "c",
+    "type_traits": "c"
+  },
+  "C_Cpp.default.forcedInclude": [
+    "\"C:\\Program Files (x86)\\Arm GNU Toolchain arm-none-eabi\\14.2 rel1\\arm-none-eabi\\include\\reent.h\""
+  ]
 }

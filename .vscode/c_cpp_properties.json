@@ -19,6 +19,7 @@
       ],
       "defines": [
         "USE_HAL_DRIVER",
+        "USE_NEWLIB_REENTRANT",
         "STM32H743xx",
         "BSP_USE_CMSIS_OS",
         "CORE_CM7",

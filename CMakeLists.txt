@@ -45,14 +45,18 @@ target_link_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined library search paths
 )
 
+file(GLOB ADD_SRC ${PROJECT_SOURCE_DIR}/Components/Src/*.c)
 # Add sources to executable
 target_sources(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user sources here
+    ${ADD_SRC}
 )
 
+file(GLOB ADD_INC ${PROJECT_SOURCE_DIR}/Components/Inc/)
 # Add include paths
 target_include_directories(${CMAKE_PROJECT_NAME} PRIVATE
     # Add user defined include paths
+    ${ADD_INC}
 )
 
 # Add project symbols (macros)

@@ -157,6 +157,9 @@ void Error_Handler(void);
 #define BTN1_Pin GPIO_PIN_12
 #define BTN1_GPIO_Port GPIOE
 #define BTN1_EXTI_IRQn EXTI15_10_IRQn
+#define BTN2_Pin GPIO_PIN_13
+#define BTN2_GPIO_Port GPIOE
+#define BTN2_EXTI_IRQn EXTI15_10_IRQn
 #define BTN3_Pin GPIO_PIN_14
 #define BTN3_GPIO_Port GPIOE
 #define BTN3_EXTI_IRQn EXTI15_10_IRQn
